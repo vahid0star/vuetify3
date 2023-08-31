@@ -1,0 +1,284 @@
+@font-face{
+    font-family:Vazir ;
+    src: url(/fonts/Vazir.ttf);
+}
+*{
+    font-family:Vazir ;
+}
+
+body{
+  overflow-x: hidden;
+
+ 
+}
+#nav div ul li a{
+    font-weight: 900;
+    font-size:large;
+
+}
+
+.navbar-brand img{
+    height: 4rem;
+}
+
+.navbar-nav li{
+    padding-right: .7rem;
+}
+
+
+header{
+    background-image: url("/images/art/banner2.JPG");
+    background-color: #cccccc;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#caption{
+    width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    color: white;
+}
+
+#captionone{
+  background-image: url("/images/art/banner3.JPG");
+  background-color: #cccccc;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+#wellcome{
+    font-size: 5rem;
+    font: weight 100px; ;
+    text-shadow: 1rem 1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+#h3{
+    font-size: 2rem;
+    padding-bottom: 20px;
+    
+}
+
+#start{
+    border-radius: 3;
+    border-width: medium;
+}
+
+
+
+#card{
+    transition: 0.3s;
+    
+}
+
+#card:hover {
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,1);
+  }
+
+
+
+
+.content1{
+    position: relative;
+    margin: 130px auto;
+    text-align: center;
+    padding: 0 20px;
+  }
+  .content1 .text{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #a1a1a1;
+  }
+  .content1 .p{
+    font-size: 2.1875rem;
+    font-weight: 600;
+    color: #202020;
+  }
+  textarea{
+    resize: none;
+  }
+  footer{
+    position: static;
+    width: 100%;
+    background: #000000;
+    margin: 0%;
+  }
+  .main-content{
+    display: flex;
+  }
+  .main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+  }
+  .box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .box .content{
+    margin: 20px 0 0 0;
+    position: relative;
+  }
+  .box .content:before{
+    position: absolute;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 100%;
+    background: #1a1a1a;
+  }
+  .box .content:after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 15%;
+    background: #f7f2f2;
+    top: -10px;
+  }
+  .left .content p{
+    text-align: justify;
+  }
+  
+  .center .content .fas{
+    font-size: 1.4375rem;
+    background: #494949;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+  }
+
+  .center .content .text{
+    font-size: 1.0625rem;
+    font-weight: 500;
+  }
+  .center .content .phone{
+    margin: 15px 0;
+  }
+  .right form .text{
+    font-size: 1.0625rem;
+    margin-bottom: 2px;
+    color: #dadada;
+    
+  }
+  .right form .msg{
+    margin-top: 10px;
+  
+  
+  }
+  .right form input, .right form textarea{
+    width: 100%;
+    font-size: 1.0625rem;
+    background: #151515;
+    padding-left: 10px;
+    border: 1px solid #222222;
+    border-radius: 5px;
+  
+  }
+  .right form input:focus,
+  .right form textarea:focus{
+    outline-color: #000000;
+  }
+  .right form input{
+    height: 35px;
+  }
+  .right form .btn{
+    margin-top: 10px;
+  }
+  .right form .btn button{
+    color: #ffffff;
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #0dcaf0;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 5px;
+  
+  }
+  .right form .btn button:hover{
+    background:  #871919 ;
+  }
+  .bottom center{
+    padding: 5px;
+    font-size: 0.9375rem;
+    background: #151515;
+  }
+  .bottom center span{
+    color: #656565;
+  }
+  .bottom center a{
+    color: #f12020;
+    text-decoration: none;
+  }
+  .bottom center a:hover{
+    text-decoration: underline;
+  }
+  @media screen and (max-width: 900px) {
+    footer{
+      position: relative;
+      bottom: 0px;
+    }
+    .main-content{
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .main-content .box{
+      margin: 5px 0;
+    }
+  }
+  
+#more {display: none;}
+
+
+
+
+
+#tern {
+  background: #222 -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
+  background-image: -webkit-linear-gradient(-40deg, transparent 0%, transparent 40%, #fff 50%, transparent 60%, transparent 100%);
+  -webkit-background-size: 200px;
+  color: rgba(255, 255, 255, 0.3);
+  -webkit-background-clip: text;
+  -webkit-animation-name: shine;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  text-shadow: 0 0px 0px rgba(255, 255, 255, 0.5);
+}
+
+@-webkit-keyframes shine {
+  0%, 10% {
+    background-position: -1000px;
+  }
+  20% {
+    background-position: top left;
+  }
+  90% {
+    background-position: top right;
+  }
+  100% {
+    background-position: 1000px;
+  }
+}
+
+
+
+
+
+
+

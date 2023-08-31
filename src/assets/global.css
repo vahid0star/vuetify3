@@ -1,0 +1,21 @@
+@font-face{
+    font-family:Vazir ;
+    src: url(/src/assets/Vazir.ttf);
+}
+*{
+    font-family:Vazir ;
+
+}
+
+nav{
+  opacity: 90%;
+}
+
+a{
+  font-size: 13pt;
+  font-weight: bold;
+}
+
+p{
+  direction: rtl;
+}
